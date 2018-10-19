@@ -9,4 +9,6 @@ License: GPL (>= 3)
 Imports:
     commonmark,
     jsonlite
+Suggests:
+    tibble
 RoxygenNote: 6.1.0
