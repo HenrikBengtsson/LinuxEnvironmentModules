@@ -1,0 +1,12 @@
+Package: LinuxEnvironmentModules
+Version: 0.0.0-9000
+Title: An R API to Linux Environment Modules
+Description: Functions to query Linux environment modules such as Lua-based 'Lmod' and Tcl-based traditional environment modules ("Tmod").
+Authors@R: c(
+   person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+          email = "henrikb@braju.com"))
+License: GPL (>= 3)
+Imports:
+    commonmark,
+    jsonlite
+RoxygenNote: 6.1.0
