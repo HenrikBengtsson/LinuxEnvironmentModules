@@ -108,7 +108,7 @@ modulepath_list_repos <- function(repos, types = c("lmod"), rename = TRUE, forma
     ns <- sapply(modules, FUN = length)
     stopifnot(all(ns == ns[1]))
 
-    modules <- as.data.frame(modules)
+    modules <- as.data.frame(modules, stringsAsFactors = FALSE)
     rownames(modules) <- NULL
 
     versions <- vector("list", length = nrow(modules))
